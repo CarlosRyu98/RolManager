@@ -1,0 +1,82 @@
+/* 🎨 Estilos generales */
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: url('../assets/bg.jpg') center/cover no-repeat;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* 📌 Contenedor principal del login */
+.login-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(10px);
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+	max-width: 350px;
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+
+h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+/* 🎨 Estilos del Formulario */
+.login-form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 100%;
+}
+
+.form-field {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+label {
+	margin-bottom: 5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+input {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.btn-primary {
+	background-color: #8b5cf6;
+	color: white;
+	border: none;
+	padding: 12px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.toast {
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.toast-error {
+	background-color: #ff4d4d;
+	color: white;
+}

@@ -1,0 +1,18 @@
+.auth-layout {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.auth-container {
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(10px);
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+	width: 350px;
+	text-align: center;
+	color: white;
+}
